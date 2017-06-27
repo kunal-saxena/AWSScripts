@@ -1,0 +1,242 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-09312b7e1a351c162",
+            "Groups": [],
+            "Instances": [
+                {
+                    "ImageId": "ami-b33e8ca5",
+                    "VpcId": "vpc-2ce40655",
+                    "SubnetId": "subnet-1444ba38",
+                    "PublicDnsName": "ec2-184-73-137-237.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "PrivateDnsName": "ip-172-31-75-223.ec2.internal",
+                    "LaunchTime": "2017-05-06T09:02:17.000Z",
+                    "Hypervisor": "xen",
+                    "EbsOptimized": false,
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-fcc36382",
+                            "GroupName": "WordPress powered by Bitnami-4-7-3-0 on Ubuntu 14-04-3-AutogenByAWSMP-"
+                        }
+                    ],
+                    "ClientToken": "149406126160827947",
+                    "NetworkInterfaces": [
+                        {
+                            "SubnetId": "subnet-1444ba38",
+                            "VpcId": "vpc-2ce40655",
+                            "NetworkInterfaceId": "eni-d2a1ea24",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-75-223.ec2.internal",
+                                    "PrivateIpAddress": "172.31.75.223",
+                                    "Association": {
+                                        "PublicDnsName": "ec2-184-73-137-237.compute-1.amazonaws.com",
+                                        "PublicIp": "184.73.137.237",
+                                        "IpOwnerId": "amazon"
+                                    },
+                                    "Primary": true
+                                }
+                            ],
+                            "PrivateIpAddress": "172.31.75.223",
+                            "SourceDestCheck": true,
+                            "PrivateDnsName": "ip-172-31-75-223.ec2.internal",
+                            "Status": "in-use",
+                            "MacAddress": "12:f3:fb:18:e5:5e",
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-e94039c6",
+                                "AttachTime": "2017-05-06T09:02:17.000Z",
+                                "Status": "attached",
+                                "DeviceIndex": 0,
+                                "DeleteOnTermination": true
+                            },
+                            "OwnerId": "174236768615",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-fcc36382",
+                                    "GroupName": "WordPress powered by Bitnami-4-7-3-0 on Ubuntu 14-04-3-AutogenByAWSMP-"
+                                }
+                            ],
+                            "Description": "Primary network interface",
+                            "Association": {
+                                "PublicDnsName": "ec2-184-73-137-237.compute-1.amazonaws.com",
+                                "PublicIp": "184.73.137.237",
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ],
+                    "Architecture": "x86_64",
+                    "Placement": {
+                        "Tenancy": "default",
+                        "GroupName": "",
+                        "AvailabilityZone": "us-east-1a"
+                    },
+                    "SourceDestCheck": true,
+                    "EnaSupport": false,
+                    "Tags": [
+                        {
+                            "Value": "Wordpress",
+                            "Key": "Name"
+                        }
+                    ],
+                    "BlockDeviceMappings": [
+                        {
+                            "Ebs": {
+                                "AttachTime": "2017-05-06T09:02:18.000Z",
+                                "Status": "attached",
+                                "DeleteOnTermination": true,
+                                "VolumeId": "vol-0ae0a0796ffad2e74"
+                            },
+                            "DeviceName": "/dev/sda1"
+                        }
+                    ],
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [
+                        {
+                            "ProductCodeId": "7eyp7o9i35afqvpvvh5gujt8w",
+                            "ProductCodeType": "marketplace"
+                        }
+                    ],
+                    "State": {
+                        "Name": "running",
+                        "Code": 16
+                    },
+                    "IamInstanceProfile": {
+                        "Id": "AIPAI5LUVMP3T6WF35PY4",
+                        "Arn": "arn:aws:iam::174236768615:instance-profile/wordpress-ec2"
+                    },
+                    "InstanceType": "t2.micro",
+                    "VirtualizationType": "hvm",
+                    "RootDeviceType": "ebs",
+                    "InstanceId": "i-0f758a096e0f072b8",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "PrivateIpAddress": "172.31.75.223",
+                    "RootDeviceName": "/dev/sda1",
+                    "PublicIpAddress": "184.73.137.237"
+                }
+            ],
+            "OwnerId": "174236768615"
+        },
+        {
+            "ReservationId": "r-0bc1222942caa0ef0",
+            "Groups": [],
+            "Instances": [
+                {
+                    "ImageId": "ami-80861296",
+                    "VpcId": "vpc-2ce40655",
+                    "SubnetId": "subnet-154be05d",
+                    "PublicDnsName": "ec2-54-197-200-227.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "PrivateDnsName": "ip-172-31-16-200.ec2.internal",
+                    "LaunchTime": "2017-05-12T06:01:35.000Z",
+                    "Hypervisor": "xen",
+                    "EbsOptimized": false,
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-cf27b7b1",
+                            "GroupName": "SSH-ICMP-TCP"
+                        }
+                    ],
+                    "ClientToken": "BSzxR1494568894457",
+                    "NetworkInterfaces": [
+                        {
+                            "SubnetId": "subnet-154be05d",
+                            "VpcId": "vpc-2ce40655",
+                            "NetworkInterfaceId": "eni-b289aa56",
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-16-200.ec2.internal",
+                                    "PrivateIpAddress": "172.31.16.200",
+                                    "Association": {
+                                        "PublicDnsName": "ec2-54-197-200-227.compute-1.amazonaws.com",
+                                        "PublicIp": "54.197.200.227",
+                                        "IpOwnerId": "amazon"
+                                    },
+                                    "Primary": true
+                                }
+                            ],
+                            "PrivateIpAddress": "172.31.16.200",
+                            "SourceDestCheck": true,
+                            "PrivateDnsName": "ip-172-31-16-200.ec2.internal",
+                            "Status": "in-use",
+                            "MacAddress": "0a:77:2b:41:7c:30",
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-285fe512",
+                                "AttachTime": "2017-05-12T06:01:35.000Z",
+                                "Status": "attached",
+                                "DeviceIndex": 0,
+                                "DeleteOnTermination": true
+                            },
+                            "OwnerId": "174236768615",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-cf27b7b1",
+                                    "GroupName": "SSH-ICMP-TCP"
+                                }
+                            ],
+                            "Description": "",
+                            "Association": {
+                                "PublicDnsName": "ec2-54-197-200-227.compute-1.amazonaws.com",
+                                "PublicIp": "54.197.200.227",
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ],
+                    "Architecture": "x86_64",
+                    "Placement": {
+                        "Tenancy": "default",
+                        "GroupName": "",
+                        "AvailabilityZone": "us-east-1b"
+                    },
+                    "SourceDestCheck": true,
+                    "EnaSupport": true,
+                    "Tags": [
+                        {
+                            "Value": "TestVM",
+                            "Key": "Name"
+                        },
+                        {
+                            "Value": "Test",
+                            "Key": "EC2"
+                        }
+                    ],
+                    "BlockDeviceMappings": [
+                        {
+                            "Ebs": {
+                                "AttachTime": "2017-05-12T06:01:49.000Z",
+                                "Status": "attached",
+                                "DeleteOnTermination": true,
+                                "VolumeId": "vol-016780d7f7030ee10"
+                            },
+                            "DeviceName": "/dev/sda1"
+                        }
+                    ],
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "State": {
+                        "Name": "running",
+                        "Code": 16
+                    },
+                    "InstanceType": "t2.micro",
+                    "IamInstanceProfile": {
+                        "Id": "AIPAIV5FAKXMHAXLIDMBS",
+                        "Arn": "arn:aws:iam::174236768615:instance-profile/EC2Access"
+                    },
+                    "KeyName": "cloudclarity",
+                    "VirtualizationType": "hvm",
+                    "RootDeviceType": "ebs",
+                    "InstanceId": "i-026c60daec87055ff",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "PrivateIpAddress": "172.31.16.200",
+                    "RootDeviceName": "/dev/sda1",
+                    "PublicIpAddress": "54.197.200.227"
+                }
+            ],
+            "OwnerId": "174236768615"
+        }
+    ]
+}
